@@ -1,0 +1,15 @@
+li:hover {
+    background-color: blue;
+}
+
+h1, p {
+    text-align: center;
+}
+
+li:active {
+    font-family: montserrat;
+}
+
+li {
+    list-style: none;
+}

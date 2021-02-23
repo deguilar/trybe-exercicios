@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(84, 155, 131);
+    padding: 50px;
+}
+
+#nav-links {
+    text-align: center;
+    background-color: rgb(120, 202, 177);
+    padding: 15px;
+    font-weight:700;
+}
+
+#first {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#second {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#third {
+    display: inline-block;
+}

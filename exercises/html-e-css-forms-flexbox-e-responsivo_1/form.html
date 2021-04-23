@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h2>Cadastro de currículo</h2>
+        <p><em>Preenchimento do formulário</em></p>
+    </header>
+
+    <form action="" method="get">
+        <fieldset>
+            <legend>Formulário</legend>
+
+            <div>
+                <label for="full-name">Nome:
+                    <input type="text" name="full-name" id="full-name" required maxlength="40" required>
+                </label>
+              
+                <br>
+                <br>
+                
+                <label for="email">Email:
+                    <input type="text" name="email" id="email" required>
+                </label>
+
+                <br>
+                <br>
+
+                <label for="cpf">CPF:
+                    <input type="text" name="cpf" id="cpf" required>
+                </label>
+
+                <br>
+                <br>
+
+                <label for="adress">Endereço:
+                    <input type="text" name="adress" id="adress" requerid maxlength="200" required>
+                </label>
+
+                <br>
+                <br>
+
+                <label for="city">Cidade:
+                    <input type="text" name="city" id="city" required>
+                </label>
+
+                <br>
+                <br>
+
+                <label for="state">Estado:
+                    <select name="state" id="state" value = "" required>
+                    </select>
+                </label>
+
+                <br>
+                <br>
+
+                <p>Tipo de imóvel:</p>
+                <label for="casa">
+                    <input type="radio" name="tipo-moradia" id="casa" value="casa">Casa
+                </label>
+
+                <label for="apto">
+                    <input type="radio" name="tipo-moradia" id="apto" value="apto">Apto
+                </label>
+
+            </div>
+            
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Último emprego</legend>
+            
+            <div>
+                <p>Resumo do seu currículo:</p>
+                <label for="curriculo">
+                    <textarea name="curriculo" id="curriculo" cols="30" rows="20" maxlength="1000" required></textarea>
+                </label>
+            </div>
+
+            <div>
+                <p>Descrição do cargo:</p>
+                <label for="cargo">
+                    <textarea name="cargo" id="cargo" cols="30" rows="10" maxlength="40" required></textarea>
+                </label>
+            </div>
+
+            <br>
+            <br>
+
+            <div>
+                <label for="start-date">Data de início:
+                    <input type="text" class="input-data" name="start-date" value="" required>
+                </label>
+            </div>
+
+        </fieldset>
+
+        <br>
+
+        <button class="submite-button" type="button">Enviar</button>
+
+        <button class="clear-button" type="button">Limpar</button>
+
+    </form>
+
+    <script src="script.js"></script>    
+
+</body>
+</html>
